@@ -99,6 +99,15 @@ a:visited {
     color: white;
 }
 
+.meta-logo {
+    margin-top: 100px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: drop-shadow(2px 5px 0px rgba(0, 0, 0, 0.35));
+}
+
 @keyframes logo-bounce {
     0% {
         transform: scale(1);
@@ -128,6 +137,9 @@ a:visited {
         width: 80%;
         margin-top: 100px;
     }
+    .meta-logo {
+        width: 100px;
+    }
 }
 
 
@@ -139,5 +151,8 @@ a:visited {
     .logo{
         width: 700px;
 
+    }
+        .meta-logo {
+        width: 250px;
     }
 }
