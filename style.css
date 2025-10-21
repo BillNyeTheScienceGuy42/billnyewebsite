@@ -140,14 +140,23 @@ a:visited {
     .meta-logo {
         width: 100px;
     }
+    .navigation-bar {
+        height: 10px;
+        padding: 25px;
+    }
+    .nav-logo {
+        width: 55px;
+    }
 }
 
 
 @media only screen and (min-width: 768px) {
     .invite-button{
         width: 300px;
+    
 
     }
+
     .logo{
         width: 700px;
 
